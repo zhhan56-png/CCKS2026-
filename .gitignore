@@ -1,0 +1,24 @@
+# ===== 数据文件（需从天池官网下载，体积过大不入库） =====
+*.jsonl
+
+# ===== 模型与提交产物 =====
+pipeline.pkl
+submit.jsonl
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
